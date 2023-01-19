@@ -1,8 +1,7 @@
-package io.wcq.concurrent.lab09;
+package io.wcq.concurrent.threadPool_learning;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
