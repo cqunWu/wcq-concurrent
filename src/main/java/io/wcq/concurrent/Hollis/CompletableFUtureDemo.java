@@ -1,4 +1,4 @@
-package io.wcq.concurrent.hollis;
+package io.wcq.concurrent.Hollis;
 
 import java.util.Arrays;
 import java.util.List;

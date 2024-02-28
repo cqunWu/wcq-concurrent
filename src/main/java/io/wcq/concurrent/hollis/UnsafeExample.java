@@ -1,4 +1,4 @@
-package io.wcq.concurrent.hollis;
+package io.wcq.concurrent.Hollis;
 
 import sun.misc.Unsafe;
 
@@ -16,7 +16,7 @@ public class UnsafeExample {
         long address = unsafe.allocateMemory(size);
 
         // 写入数据到堆外内存
-        String dataToWrite = "Hello, this is hollis testing direct memory!";
+        String dataToWrite = "Hello, this is Hollis testing direct memory!";
         byte[] dateBytes = dataToWrite.getBytes();
         for (int i = 0; i < dateBytes.length; i++) {
             unsafe.putByte(address + i, dateBytes[i]);

@@ -1,6 +1,5 @@
-package io.wcq.concurrent.hollis;
+package io.wcq.concurrent.Hollis;
 
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
